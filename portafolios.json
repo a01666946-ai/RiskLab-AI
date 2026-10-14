@@ -1,0 +1,525 @@
+{
+  "fecha_reporte": "2026-10-07",
+  "fecha_precios": "2026-10-06",
+  "descripcion": "Pesos y proyecciones extraídos de resumen.md, no cotizaciones en vivo",
+  "perfiles": {
+    "Conservador": {
+      "allocations": {
+        "Estrategico": {
+          "CETES": 15.0,
+          "MBONO29": 7.0,
+          "MBONO34": 12.0,
+          "UDI35": 9.0,
+          "SGOV": 3.0,
+          "IEI": 10.0,
+          "TIP": 5.0,
+          "IGSB": 9.0,
+          "USMV": 9.0,
+          "IEFA": 6.0,
+          "XLV": 5.0,
+          "PG": 4.0,
+          "BRK.B": 3.0,
+          "GLDM": 3.0
+        },
+        "Max_Sharpe": {
+          "CETES": 5.0,
+          "MBONO29": 15.0,
+          "MBONO34": 15.0,
+          "UDI35": 15.0,
+          "SGOV": 0.0,
+          "IEI": 5.29,
+          "TIP": 15.0,
+          "IGSB": 1.0,
+          "USMV": 3.02,
+          "IEFA": 10.22,
+          "XLV": 6.02,
+          "PG": 3.93,
+          "BRK.B": 5.0,
+          "GLDM": 0.52
+        },
+        "Min_Varianza": {
+          "CETES": 15.0,
+          "MBONO29": 15.0,
+          "MBONO34": 15.0,
+          "UDI35": 5.0,
+          "SGOV": 10.0,
+          "IEI": 3.63,
+          "TIP": 1.0,
+          "IGSB": 14.77,
+          "USMV": 9.43,
+          "IEFA": 2.43,
+          "XLV": 1.18,
+          "PG": 3.11,
+          "BRK.B": 3.85,
+          "GLDM": 0.6
+        }
+      },
+      "metricas": {
+        "Estrategico": {
+          "rendimiento": 7.91,
+          "volatilidad": 7.31,
+          "sharpe": 0.23
+        },
+        "Max_Sharpe": {
+          "rendimiento": 8.23,
+          "volatilidad": 7.11,
+          "sharpe": 0.29
+        },
+        "Min_Varianza": {
+          "rendimiento": 7.72,
+          "volatilidad": 6.2,
+          "sharpe": 0.24
+        }
+      },
+      "backtest": {
+        "3": {
+          "cagr": 10.19,
+          "volatilidad": 7.32,
+          "max_drawdown": -4.15,
+          "sharpe": 0.18,
+          "exceso_benchmark": -1.95
+        },
+        "5": {
+          "cagr": 5.17,
+          "volatilidad": 7.3,
+          "max_drawdown": -11.57,
+          "sharpe": -0.45,
+          "exceso_benchmark": -0.16
+        },
+        "10": {
+          "cagr": 6.44,
+          "volatilidad": 8.15,
+          "max_drawdown": -11.57,
+          "sharpe": -0.1,
+          "exceso_benchmark": -0.42
+        }
+      },
+      "montecarlo": {
+        "Pesimista": {
+          "rend_anual_mediana": 6.72,
+          "volatilidad": 11.28,
+          "prob_perdida_12m": 29.24,
+          "var_95_12m": -11.35,
+          "cvar_95_12m": -15.61,
+          "p_supera_benchmark_5a": 31.81
+        },
+        "Base": {
+          "rend_anual_mediana": 7.62,
+          "volatilidad": 7.35,
+          "prob_perdida_12m": 15.7,
+          "var_95_12m": -4.64,
+          "cvar_95_12m": -7.65,
+          "p_supera_benchmark_5a": 48.08
+        },
+        "Optimista": {
+          "rend_anual_mediana": 8.16,
+          "volatilidad": 6.25,
+          "prob_perdida_12m": 10.14,
+          "var_95_12m": -2.4,
+          "cvar_95_12m": -5.04,
+          "p_supera_benchmark_5a": 50.81
+        }
+      },
+      "riesgo_pct": {
+        "CETES": 0.06,
+        "MBONO29": 0.27,
+        "MBONO34": 3.59,
+        "UDI35": 3.13,
+        "SGOV": 3.58,
+        "IEI": 13.31,
+        "TIP": 6.91,
+        "IGSB": 11.8,
+        "USMV": 17.34,
+        "IEFA": 12.19,
+        "XLV": 9.92,
+        "PG": 7.68,
+        "BRK.B": 5.61,
+        "GLDM": 4.59
+      }
+    },
+    "Moderado": {
+      "allocations": {
+        "Estrategico": {
+          "QUAL": 16.0,
+          "IEFA": 13.0,
+          "IEMG": 6.0,
+          "XLV": 5.0,
+          "GFNORTEO": 5.0,
+          "MSFT": 4.0,
+          "GOOGL": 4.0,
+          "XOM": 4.0,
+          "BRK.B": 4.0,
+          "MBONO34": 12.0,
+          "UDI35": 6.0,
+          "EMB": 6.0,
+          "IEI": 6.0,
+          "CETES": 5.0,
+          "GLDM": 4.0
+        },
+        "Max_Sharpe": {
+          "QUAL": 12.29,
+          "IEFA": 15.44,
+          "IEMG": 3.79,
+          "XLV": 5.48,
+          "GFNORTEO": 6.0,
+          "MSFT": 2.49,
+          "GOOGL": 2.27,
+          "XOM": 3.85,
+          "BRK.B": 5.36,
+          "MBONO34": 18.0,
+          "UDI35": 11.0,
+          "EMB": 7.03,
+          "IEI": 4.97,
+          "CETES": 1.0,
+          "GLDM": 1.03
+        },
+        "Min_Varianza": {
+          "QUAL": 1.0,
+          "IEFA": 3.96,
+          "IEMG": 10.73,
+          "XLV": 18.0,
+          "GFNORTEO": 6.0,
+          "MSFT": 2.3,
+          "GOOGL": 1.0,
+          "XOM": 6.0,
+          "BRK.B": 6.0,
+          "MBONO34": 11.0,
+          "UDI35": 1.0,
+          "EMB": 1.0,
+          "IEI": 11.0,
+          "CETES": 18.0,
+          "GLDM": 3.0
+        }
+      },
+      "metricas": {
+        "Estrategico": {
+          "rendimiento": 9.59,
+          "volatilidad": 11.82,
+          "sharpe": 0.29
+        },
+        "Max_Sharpe": {
+          "rendimiento": 9.55,
+          "volatilidad": 10.82,
+          "sharpe": 0.31
+        },
+        "Min_Varianza": {
+          "rendimiento": 8.81,
+          "volatilidad": 9.66,
+          "sharpe": 0.27
+        }
+      },
+      "backtest": {
+        "3": {
+          "cagr": 17.33,
+          "volatilidad": 11.01,
+          "max_drawdown": -7.7,
+          "sharpe": 0.72,
+          "exceso_benchmark": 0.64
+        },
+        "5": {
+          "cagr": 9.08,
+          "volatilidad": 11.8,
+          "max_drawdown": -17.82,
+          "sharpe": 0.07,
+          "exceso_benchmark": 1.84
+        },
+        "10": {
+          "cagr": 10.49,
+          "volatilidad": 13.06,
+          "max_drawdown": -17.82,
+          "sharpe": 0.26,
+          "exceso_benchmark": 1.28
+        }
+      },
+      "montecarlo": {
+        "Pesimista": {
+          "rend_anual_mediana": 5.34,
+          "volatilidad": 19.29,
+          "prob_perdida_12m": 39.13,
+          "var_95_12m": -22.42,
+          "cvar_95_12m": -28.36,
+          "p_supera_benchmark_5a": 31.87
+        },
+        "Base": {
+          "rend_anual_mediana": 8.72,
+          "volatilidad": 11.92,
+          "prob_perdida_12m": 22.63,
+          "var_95_12m": -10.04,
+          "cvar_95_12m": -14.66,
+          "p_supera_benchmark_5a": 51.38
+        },
+        "Optimista": {
+          "rend_anual_mediana": 10.16,
+          "volatilidad": 10.14,
+          "prob_perdida_12m": 15.69,
+          "var_95_12m": -6.22,
+          "cvar_95_12m": -10.37,
+          "p_supera_benchmark_5a": 55.48
+        }
+      },
+      "riesgo_pct": {
+        "QUAL": 24.64,
+        "IEFA": 19.22,
+        "IEMG": 8.79,
+        "XLV": 5.69,
+        "GFNORTEO": 4.2,
+        "MSFT": 6.7,
+        "GOOGL": 7.42,
+        "XOM": 4.14,
+        "BRK.B": 4.64,
+        "MBONO34": 1.12,
+        "UDI35": 0.64,
+        "EMB": 5.75,
+        "IEI": 3.6,
+        "CETES": 0.01,
+        "GLDM": 3.43
+      }
+    },
+    "Agresivo": {
+      "fuente": "RODRIGO_PORTAF_REFINITIV (1).ipynb — celda 15: cartera robusta sin OPPJ/VRT; celdas 18–20 validación/proyección",
+      "allocations": {
+        "Final_Validado": {
+          "ORLY": 4.5,
+          "ANET": 4.5,
+          "AEM": 4.5,
+          "CTAS": 4.5,
+          "VRTX": 4.5,
+          "LLY": 4.5,
+          "TJX": 4.5,
+          "PH": 4.5,
+          "MRK": 4.5,
+          "PG": 4.5,
+          "MPC": 4.5,
+          "AVGO": 4.5,
+          "WMT": 4.5,
+          "WPM": 4.5,
+          "PTLC": 4.5,
+          "COST": 4.5,
+          "SCCO": 4.5,
+          "HWM": 4.5,
+          "EOG": 4.5,
+          "NVDA": 4.5,
+          "LVHI": 4.0,
+          "GE": 1.5,
+          "NVS": 1.5,
+          "SAP": 1.5,
+          "KO": 1.5
+        }
+      },
+      "metricas": {
+        "Final_Validado": {
+          "rendimiento": 9.0,
+          "volatilidad": 15.69,
+          "sharpe": 1.33
+        }
+      },
+      "backtest": {
+        "5": {
+          "cagr": 26.56,
+          "max_drawdown": -16.78,
+          "exceso_benchmark": 16.74
+        }
+      },
+      "montecarlo": {},
+      "riesgo_pct": {},
+      "proyeccion_escenarios": {
+        "Conservador": 6.0,
+        "Base": 9.0,
+        "Crecimiento": 12.0
+      },
+      "validacion": {
+        "periodo": "2022–2025",
+        "cagr": 26.56,
+        "volatilidad": 15.69,
+        "sharpe": 1.33,
+        "max_drawdown": -16.78,
+        "spy_cagr": 9.82,
+        "var_95_diario": 1.47
+      },
+      "nota": "Tasa 9% únicamente escenario base ilustrativo del notebook, NO rendimiento esperado estimado de esta cartera; métricas de riesgo y walk-forward son históricas de una estrategia reoptimizada anualmente, no de los pesos finales fijos."
+    }
+  },
+  "tecnico": {
+    "SGOV": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 100.0,
+      "adx": 100.0,
+      "dist_sma200_pct": 1.44,
+      "zona_entrada": "100.30–100.32",
+      "sobreextendido": true
+    },
+    "IEI": {
+      "tendencia": "Bajista",
+      "cruce": "Death cross",
+      "rsi": 38.11,
+      "adx": 31.54,
+      "dist_sma200_pct": -2.09,
+      "zona_entrada": "113.37–113.75",
+      "sobreextendido": false
+    },
+    "TIP": {
+      "tendencia": "Bajista",
+      "cruce": "Death cross",
+      "rsi": 33.15,
+      "adx": 41.63,
+      "dist_sma200_pct": -2.65,
+      "zona_entrada": "104.53–104.94",
+      "sobreextendido": false
+    },
+    "IGSB": {
+      "tendencia": "Lateral/transición",
+      "cruce": "Golden cross",
+      "rsi": 44.41,
+      "adx": 26.02,
+      "dist_sma200_pct": -0.38,
+      "zona_entrada": "51.11–51.23",
+      "sobreextendido": false
+    },
+    "EMB": {
+      "tendencia": "Bajista",
+      "cruce": "Death cross",
+      "rsi": 35.68,
+      "adx": 35.57,
+      "dist_sma200_pct": -2.5,
+      "zona_entrada": "91.22–91.75",
+      "sobreextendido": false
+    },
+    "USMV": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 57.11,
+      "adx": 21.42,
+      "dist_sma200_pct": 4.2,
+      "zona_entrada": "98.11–98.82",
+      "sobreextendido": false
+    },
+    "QUAL": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 65.02,
+      "adx": 15.05,
+      "dist_sma200_pct": 8.02,
+      "zona_entrada": "221.08–222.86",
+      "sobreextendido": true
+    },
+    "XLV": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 45.97,
+      "adx": 13.61,
+      "dist_sma200_pct": 7.34,
+      "zona_entrada": "165.88–168.31",
+      "sobreextendido": false
+    },
+    "IEFA": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 44.01,
+      "adx": 16.51,
+      "dist_sma200_pct": 2.5,
+      "zona_entrada": "96.96–98.00",
+      "sobreextendido": false
+    },
+    "IEMG": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 55.4,
+      "adx": 9.39,
+      "dist_sma200_pct": 8.19,
+      "zona_entrada": "80.92–82.10",
+      "sobreextendido": false
+    },
+    "PG": {
+      "tendencia": "Lateral/transición",
+      "cruce": "Death cross",
+      "rsi": 56.26,
+      "adx": 8.48,
+      "dist_sma200_pct": 1.48,
+      "zona_entrada": "143.88–146.30",
+      "sobreextendido": false
+    },
+    "BRK.B": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 50.52,
+      "adx": 9.64,
+      "dist_sma200_pct": 2.59,
+      "zona_entrada": "499.34–504.94",
+      "sobreextendido": false
+    },
+    "MSFT": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 68.01,
+      "adx": 39.23,
+      "dist_sma200_pct": 22.52,
+      "zona_entrada": "495.96–507.68",
+      "sobreextendido": false
+    },
+    "GOOGL": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 53.43,
+      "adx": 13.9,
+      "dist_sma200_pct": 2.56,
+      "zona_entrada": "335.42–343.87",
+      "sobreextendido": false
+    },
+    "XOM": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 56.11,
+      "adx": 13.18,
+      "dist_sma200_pct": 11.02,
+      "zona_entrada": "159.13–162.61",
+      "sobreextendido": false
+    },
+    "GFNORTEO": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 47.38,
+      "adx": 19.95,
+      "dist_sma200_pct": 3.65,
+      "zona_entrada": "187.89–192.89",
+      "sobreextendido": false
+    },
+    "GLDM": {
+      "tendencia": "Bajista",
+      "cruce": "Death cross",
+      "rsi": 41.21,
+      "adx": 18.91,
+      "dist_sma200_pct": -8.04,
+      "zona_entrada": "82.69–84.08",
+      "sobreextendido": false
+    },
+    "ACWI": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 57.48,
+      "adx": 12.28,
+      "dist_sma200_pct": 7.14,
+      "zona_entrada": "158.71–160.18",
+      "sobreextendido": false
+    },
+    "AGG": {
+      "tendencia": "Bajista",
+      "cruce": "Death cross",
+      "rsi": 34.4,
+      "adx": 31.31,
+      "dist_sma200_pct": -2.69,
+      "zona_entrada": "94.60–95.03",
+      "sobreextendido": false
+    },
+    "SPY": {
+      "tendencia": "Alcista",
+      "cruce": "Golden cross",
+      "rsi": 62.71,
+      "adx": 10.39,
+      "dist_sma200_pct": 8.49,
+      "zona_entrada": "760.45–767.21",
+      "sobreextendido": false
+    }
+  },
+  "fecha_reporte_agresivo": "Notebook aportado por equipo (fecha de cálculo no verificada)"
+}
